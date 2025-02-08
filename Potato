@@ -5,7 +5,7 @@ if not _G.WaitPerAmount then
     _G.WaitPerAmount = 500
 end
 if _G.SendNotifications == nil then
-    _G.SendNotifications = true
+    _G.SendNotifications = false
 end
 if _G.ConsoleLogs == nil then
     _G.ConsoleLogs = false
